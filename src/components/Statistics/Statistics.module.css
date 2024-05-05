@@ -8,18 +8,8 @@
 
 .list {
   display: flex;
+  margin-bottom: 15px;
   align-items: center;
   justify-content: center;
   gap: 8px;
-}
-
-.item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  background: var(--color-light);
-  border-radius: 8px;
-  box-shadow: var(--shadow-smal);
-  padding: 20px 40px;
 }
