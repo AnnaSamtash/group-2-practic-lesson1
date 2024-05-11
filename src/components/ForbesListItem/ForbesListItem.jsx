@@ -5,7 +5,7 @@ import style from './ForbesListItem.module.css';
 export const ForbesListItem = ({ avatar, name, capital, isIncrease }) => {
   return (
     <>
-      <img className={style.avatar} src={avatar} alt={name} />
+      <img className={style.avatar} src={avatar} alt={Profile picture of ${name}} />
       <h3 className={style.title}>{name}</h3>
       <span className={style.capital}>
         {capital}
